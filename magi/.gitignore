@@ -1,0 +1,9 @@
+**target
+
+**.env
+
+**.DS_Store
+
+.platform
+.compiler
+.rustflags

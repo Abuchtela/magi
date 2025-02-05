@@ -74,7 +74,3 @@ lint-docs:
 # Test the Rust documentation
 test-docs:
   cargo test --doc --all --locked
-
-# Download diffs in the codespace
-download-diffs:
-  sh docker/download_diffs.sh

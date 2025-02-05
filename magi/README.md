@@ -31,15 +31,6 @@ If the previous step fails with a permission denied error, try running the comma
 
 The docker setup contains a Grafana dashboard. To view sync progress, you can check the dashboard at `http://localhost:3000` with the username `magi` and password `op`. Alternatively, you can view Magi's logs by running `docker logs magi --follow`.
 
-## Downloading Diffs
-
-To download diffs in the codespace, you can use the `download-diffs` command. This command will download diffs from a specified URL and save them to a specified directory.
-
-To use the `download-diffs` command, run the following:
-```sh
-just download-diffs
-```
-
 ## Contributing
 
 All contributions to Magi are welcome. Before opening a PR, please submit an issue detailing the bug or feature. Please ensure that your contribution builds on the stable Rust toolchain, has been linted with `cargo fmt`, passes `cargo clippy`, and contains tests when applicable.

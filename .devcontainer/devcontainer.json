@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "test": "cargo test --all",
+    "build": "cargo build --all",
+    "launch": "cp docker/.env.default docker/.env && docker compose up -d"
+  }
+}
